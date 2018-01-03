@@ -1,0 +1,11 @@
+{
+  "name": "web-node-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "OSV",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1"
+  }
+}
