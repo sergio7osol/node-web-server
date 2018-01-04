@@ -2,6 +2,9 @@
   "name": "web-node-server",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node server.js"  
+  },
   "author": "OSV",
   "license": "MIT",
   "dependencies": {
