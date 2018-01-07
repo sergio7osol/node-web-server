@@ -1,9 +1,9 @@
 {
   "name": "web-node-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"  
+    "start": "node server.js"  
   },
   "author": "OSV",
   "license": "MIT",
