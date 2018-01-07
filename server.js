@@ -49,6 +49,11 @@ app.get("/bad", (req, res) => {
         errorMessage: "Unable to fullfill the request."
     });
 });
+app.get("/projects", (req, res) => {
+    res.render("portfolio.hbs", {
+        pageTitle: "Portfolio works"
+    });
+});
 
 app.listen(port, () => {
     console.log(`Server is up on port ${port}`);
